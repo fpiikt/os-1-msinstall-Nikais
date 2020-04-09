@@ -1,4 +1,5 @@
 # Задание №1
+## Часть 1
 ```
 @echo off  
 title Autoinstaller  
@@ -34,4 +35,17 @@ echo Please wait...
 start /wait LibreOffice_6.4.2_Win_x64.msi /passive /norestart /le libreoffice-install-log.txt  
 start /wait LibreOffice_6.4.2_Win_x64_helppack_ru.msi /passive /forcerestart /le+ libreoffice-install-log.txt  
 exit  
+```
+## Часть 2
+javainstall.bat
+```
+jre-8u241-windows-x64.exe INSTALLCFG="C:\Users\burla\Downloads\javacfg.txt" /l jre-log.txt
+```
+
+javacfg.txt
+```
+INSTALL_SILENT=1
+INSTALLDIR=C:\Java\JRE
+WEB_ANALYTICS=0
+WEB_JAVA=1
 ```

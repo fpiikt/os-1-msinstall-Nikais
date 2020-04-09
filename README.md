@@ -39,10 +39,10 @@ exit
 ## Часть 2
 javainstall.bat
 ```
-jre-8u241-windows-x64.exe INSTALLCFG="C:\Users\burla\Downloads\javacfg.txt" /l jre-log.txt
+jre-8u241-windows-x64.exe INSTALLCFG="C:\Users\burla\Downloads\jre-cfg.txt" /L*V C:\jre-log.txt
 ```
 
-javacfg.txt
+jre-log.txt
 ```
 INSTALL_SILENT=1
 INSTALLDIR=C:\Java\JRE
